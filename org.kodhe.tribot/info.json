@@ -10,10 +10,11 @@
 		},
 		"0.2.1": {
 			"created": 1558089186064,
-			"size": 6233155,
-			"filename": "./1558089184862.024.kwa",
-			"uploadid": "1558089184862.024",
-			"url": "http://51.158.26.39:3016/site/org.kodhe.tribot/api/function/c/download"
+			"size": 6233292,
+			"filename": "./1558131354997.9253.kwa",
+			"uploadid": "1558131354997.9253",
+			"url": "http://51.158.26.39:3016/site/org.kodhe.tribot/api/function/c/download",
+			"crypt": true
 		}
 	}
 }
