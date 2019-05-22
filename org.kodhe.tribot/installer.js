@@ -8,22 +8,22 @@ var machineId, ws, colors
 install()
 
 async function load(){
-	var stdpath= await import("https://kwx.kodhe.com/x/v/0.4.3/std/dist/stdlib")
+	var stdpath= await import("https://kwx.kodhe.com/x/v/0.4.4/std/dist/stdlib")
 	kawix.KModule.addVirtualFile("@kawix/std", {
 		redirect: stdpath.dirname,
 		isdirectory: true
 	})
-	var gixpath= await import("https://kwx.kodhe.com/x/v/0.4.3/gix/dist/gix")
+	var gixpath= await import("https://kwx.kodhe.com/x/v/0.4.4/gix/dist/gix")
 	kawix.KModule.addVirtualFile("@kawix/gix", {
 		redirect: gixpath.dirname,
 		isdirectory: true
 	})
-	var dhspath= await import("https://kwx.kodhe.com/x/v/0.4.3/dhs/dist/dhs")
+	var dhspath= await import("https://kwx.kodhe.com/x/v/0.4.4/dhs/dist/dhs")
 	kawix.KModule.addVirtualFile("@kawix/dhs", {
 		redirect: gixpath.dirname,
 		isdirectory: true
 	})
-	var kivipath= await import("https://kwx.kodhe.com/x/v/0.4.3/kivi/dist/kivi")
+	var kivipath= await import("https://kwx.kodhe.com/x/v/0.4.4/kivi/dist/kivi")
 	kawix.KModule.addVirtualFile("@kawix/kivi", {
 		redirect: gixpath.dirname,
 		isdirectory: true
@@ -399,10 +399,10 @@ export var startClustered= function(){
 
 		content= `
 
-import stdpath1 from 'https://kwx.kodhe.com/x/v/0.4.3/dhs/dist/dhs'
-import stdpath2 from 'https://kwx.kodhe.com/x/v/0.4.3/std/dist/stdlib'
-import stdpath3 from 'https://kwx.kodhe.com/x/v/0.4.3/gix/dist/gix'
-import stdpath4 from 'https://kwx.kodhe.com/x/v/0.4.3/kivi/dist/kivi'
+import stdpath1 from 'https://kwx.kodhe.com/x/v/0.4.4/dhs/dist/dhs'
+import stdpath2 from 'https://kwx.kodhe.com/x/v/0.4.4/std/dist/stdlib'
+import stdpath3 from 'https://kwx.kodhe.com/x/v/0.4.4/gix/dist/gix'
+import stdpath4 from 'https://kwx.kodhe.com/x/v/0.4.4/kivi/dist/kivi'
 
 
 kawix.KModule.addVirtualFile("@kawix/std", {
