@@ -1,2 +1,2 @@
-# modules
-Modules for easy install in kawix/core
+# user.app
+User content apps for easy install in kawix/core
